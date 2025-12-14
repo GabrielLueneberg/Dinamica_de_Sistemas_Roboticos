@@ -15,8 +15,8 @@ L(2).qlim = [0 0.5];
 robot = SerialLink(L, 'name', 'links_manipulador');
 
 
-%user_input = input('Vetor de posições de junta: '); % digite no formato [ l1, l2, theta3, theta4]
-                                         user_input = [0.47, 0.5, -pi, pi]
+user_input = input('Vetor de posições de junta: '); % digite no formato [ l1, l2, theta3, theta4]
+                                                    %ex: [0.47, 0.5, -pi, pi]
 l1 = user_input(1);
 l2 = user_input(2);
 theta3 = user_input(3);
@@ -41,6 +41,6 @@ x = T(1, 4)
 y = T(2, 4)
 z = T(3, 4)
 
-robot.fkine(user_input)
-%robot.plot(user_input);
-robot.teach(user_input)
+%robot.fkine(user_input)
+robot.plot(user_input);
+%robot.teach(user_input)
