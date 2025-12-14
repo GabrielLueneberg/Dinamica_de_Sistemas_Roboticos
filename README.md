@@ -1,5 +1,5 @@
 # Dinamica_de_Sistemas_Roboticos
-Trabalho final da matéria SEM0590.
+Trabalho final da matéria SEM0590 - Dinamica de Sistemas Roboticos
 
 Os arquivos principais são cinematica_direta.m, cinematica_inversa.m, trajetoria.m, dinamica.m
 
