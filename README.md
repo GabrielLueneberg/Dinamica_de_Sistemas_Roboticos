@@ -6,3 +6,9 @@ Os arquivos principais são cinematica_direta.m, cinematica_inversa.m, trajetori
 Os arquivos cinematica_simbolica.m e dinamica_simbolica.py foram arquivos auxiliares que auxiliaram na dedução das equações analiticas.
 
 O arquivo Taufun.m é apenas o arquivo dinamica_simbolica.m convertido para uma função que aceita argumentos numéricos.
+
+Em cinematica_direta.m é neccessário digitar no console o vetor de posição das juntas no formato de vetor no Matlab [x,x,x,x]
+
+Em cinematica_inversa.m é neccessário digitar no console a matriz de posições no formato de matriz no Matlab [x x x x;x x x x;x x x x;x x x x]
+
+Em trajetória.m e dinamica.m definiu-se previamente uma trajetória, mas é possível alter as posições iniciais e finais alterando as variaveis no código 
