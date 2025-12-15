@@ -3,7 +3,7 @@ Trabalho final da matéria SEM0590 - Dinamica de Sistemas Roboticos
 
 Os arquivos principais são cinematica_direta.m, cinematica_inversa.m, trajetoria.m, dinamica.m
 
-Os arquivos cinematica_simbolica.py foi um arquivo auxiliar que contribuiu na dedução das equações analiticas.
+O arquivo cinematica_simbolica.py foi um arquivo auxiliar que contribuiu na dedução das equações analiticas.
 
 Em cinematica_direta.m é neccessário digitar no console o vetor de posição das juntas no formato de vetor no Matlab [x,x,x,x]
 
