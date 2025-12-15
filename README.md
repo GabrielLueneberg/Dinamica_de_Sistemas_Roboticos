@@ -3,9 +3,7 @@ Trabalho final da matéria SEM0590 - Dinamica de Sistemas Roboticos
 
 Os arquivos principais são cinematica_direta.m, cinematica_inversa.m, trajetoria.m, dinamica.m
 
-Os arquivos cinematica_simbolica.m e dinamica_simbolica.py foram arquivos auxiliares que auxiliaram na dedução das equações analiticas.
-
-O arquivo Taufun.m é apenas o arquivo dinamica_simbolica.m convertido para uma função que aceita argumentos numéricos.
+Os arquivos cinematica_simbolica.py foi um arquivo auxiliar que contribuiu na dedução das equações analiticas.
 
 Em cinematica_direta.m é neccessário digitar no console o vetor de posição das juntas no formato de vetor no Matlab [x,x,x,x]
 
